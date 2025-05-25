@@ -23,7 +23,7 @@ A modern web application starter template built with SvelteKit and Supabase, fea
 
 1. Clone this repository
 ```bash
-git clone https://github.com/yourusername/sveltekit-supabase.git
+git clone https://github.com/zxdev7/sveltekit-supabase.git
 cd sveltekit-supabase
 ```
 
