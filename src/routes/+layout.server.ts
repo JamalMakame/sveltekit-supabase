@@ -44,7 +44,6 @@ export const load = (async ({ cookies, url }: ServerLoadProps) => {
   }
 
   return {
-    supabase,
     session
   };
 });
