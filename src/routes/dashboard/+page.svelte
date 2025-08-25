@@ -1,10 +1,9 @@
 <script lang="ts">
 	import { user } from '$lib/supabase';
 	import { goto } from '$app/navigation';
-	import { onMount } from 'svelte';
 
 	// Redirect to login if not authenticated
-	onMount(() => {
+	$effect(() => {
 		if (!$user) {
 			goto('/auth/login');
 		}
